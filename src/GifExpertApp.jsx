@@ -3,7 +3,7 @@ import AppCategory from "./Components/AppCategory";
 import GifGrid from "./Components/GifGrid";
 
 const GifExpertApp = () => {
-  const [categories, setCategories] = useState(["Casa"]);
+  const [categories, setCategories] = useState([""]);
 
   return (
     <div>
