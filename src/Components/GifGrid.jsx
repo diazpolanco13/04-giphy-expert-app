@@ -11,7 +11,7 @@ const GifGrid = ({ category }) => {
 		<>
 			<h3 className="text-xl py-3 animate__animated animate__zoomIn">{category}</h3>
 			{loading && <p>Loading....</p>}
-			<div className="flex mb-4">
+			<div className="flex flex-wrap">
 				{images.map((imagen) => {
 					return <GifGridItem key={imagen.id} {...imagen} />;
 				})}
